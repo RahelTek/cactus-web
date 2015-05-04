@@ -258,11 +258,24 @@ body {
 
 }
 
+.iconcontainer2 {
+  position: absolute;
+  display: flex;
+  right: 50px;
+  margin-top: -100px;
+
+}
+
+.awardicons {
+  margin-right: 10px;
+  padding: 0px;
+  width: 30px;
+}
+
 .Logo {
   position: relative;
   z-index: 10;
   width: 300px;
   cursor:pointer;
-
 
 }
