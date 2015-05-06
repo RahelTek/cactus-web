@@ -22,8 +22,8 @@ body {
   position: absolute;
   display: inline-flex;
   right: 3px;
-  top: 0px;
   z-index: 100;
+  width: 31%;
 
 }
 
