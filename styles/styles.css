@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Rancho);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 a:link {text-decoration: none}
 a:visited {text-decoration: none}
@@ -9,7 +10,7 @@ a:hover {text-decoration: underline}
 body {
   width: 100%;
   margin: 0;
-  font-family: arial, helvetica;
+  font-family: helvetica, arial;
   background-image: url("../images/back.png");
   background-size: cover;
   background-position: bottom;
@@ -109,13 +110,13 @@ body {
   height: 209px;
 }
 .sitename h1 {
-  margin:0;
-  margin-left: 70px;
+  margin: -20px;
+  margin-left: 68px;
   font-size: 24px;
   letter-spacing: 0px;
   font-weight: 100;
   color: #fec81f;
-  font-family: arial, helvetica;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -137,12 +138,15 @@ body {
   display: inline;
   padding: 0 20px;
 
+
 }
 
 .nav li a {
   text-decoration: none;
   color: #6fa890;
-  font-size: 20px;
+  font-size: 21px;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 
@@ -231,18 +235,20 @@ body {
 
 .footerLinks1 p {
   cursor:pointer;
-  margin-left: 105px;
+  margin-left: 97px;
   margin-top: -40px;
   font-size: 20px;
   color: #6fa890;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .footerLinks2 p {
   cursor:pointer;
-  margin-left: 320px;
-  margin-top: -45px;
+  margin-left: 301px;
+  margin-top: -47px;
   font-size: 20px;
   color: #6fa890;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .address2 {
@@ -251,9 +257,10 @@ body {
 }
 .address2 li {
   display: inline;
-  padding: 10px;
+  padding: 12px;
   color: #6fa890;
-  font-size: 17px;
+  font-size: 14.3px;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -267,7 +274,7 @@ body {
 .phone {
   width: 3%;
   padding: 10px;
-  margin-left: 50px;
+  margin-left: 43px;
 
 }
 
@@ -278,7 +285,7 @@ body {
 }
 
 .circle {
-  margin-left: 262px;
+  margin-left: 240px;
   width: 10px;
   height: 10px;
   background: #6fa890;
@@ -288,13 +295,19 @@ body {
 }
 
 .circle2 {
-  margin-left: 416px;
+  margin-left: 381px;
   width: 10px;
   height: 10px;
   background: #6fa890;
   border-radius: 100%;
   margin-top: -10px;
 
+
+}
+
+.skull {
+  width: 100%;
+  margin-top: 40px;
 
 }
 
@@ -324,15 +337,33 @@ body {
 
 .square1 h2 {
   font-family: 'Rancho', cursive;
-  padding: 10px;
+  padding: 8px;
+  margin-left: 28px;
+  margin-top: 10px;
+  font-size: 50px;
+  color: #fec81f;
 }
 
 .lefticons {
   position: relative;
+  display: block;
+  margin-left: 59px;
 }
 
 .reserveicon1 {
-  margin: 5px auto;
+  margin-top: -15px;
+  margin-left: 6px;
+
+
+}
+
+.reserveicon2 {
+  margin-top: 20px;
+  margin-left: 13px;
+}
+
+.reserveicon3 {
+  margin-top: 15px;
 }
 
 
