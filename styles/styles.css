@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Rancho);
 
 a:link {text-decoration: none}
 a:visited {text-decoration: none}
@@ -11,6 +12,7 @@ body {
   font-family: arial, helvetica;
   background-image: url("../images/back.png");
   background-size: cover;
+  background-position: bottom;
 
 }
 
@@ -54,13 +56,13 @@ body {
   transtion:0.4s;
 
 
-  }
+}
 
 .jq_search input [type="submit"] + input {
   background-position:top right;
 
 
-  }
+}
 
 .jq_search input [type="submit"]:hover {
   opacity:1;
@@ -160,7 +162,7 @@ body {
 
 .main {
   position: relative;
-  height: 1000px;
+  height: 650px;
 
 
 }
@@ -308,14 +310,29 @@ body {
 }
 
 .square1 {
-  width: 355px;
+  width: 377px;
   height: 392px;
   float: right;
   background: #ee7f4b;
   margin-left: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
-  margin-right: 15px;
+  margin-right: 7px;
+  background-image: url("../images/reservebackfill.png");
+
+}
+
+.square1 h2 {
+  font-family: 'Rancho', cursive;
+  padding: 10px;
+}
+
+.lefticons {
+  position: relative;
+}
+
+.reserveicon1 {
+  margin: 5px auto;
 }
 
 
