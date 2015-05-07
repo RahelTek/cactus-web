@@ -268,6 +268,37 @@ body {
 
 }
 
+.arrow1 {
+  position: absolute;
+  z-index: 20;
+  margin-left: 159px;
+  margin-top: 28px;
+
+}
+
+.arrow2 {
+  position: absolute;
+  z-index: 20;
+  margin-left: 452px;
+  margin-top: 28px;
+
+}
+
+.arrow3 {
+  position: absolute;
+  z-index: 20;
+  margin-left: 417px;
+  margin-top: 239px;
+
+}
+
+.arrow4 {
+  position: absolute;
+  z-index: 20;
+  margin-left: 190px;
+  margin-top: 240px;
+
+}
 .copy1 p {
   text-decoration: none;
   position: absolute;
