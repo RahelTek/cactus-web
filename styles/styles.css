@@ -221,7 +221,63 @@ body {
   position: absolute;
 }
 
+.square2 p {
+  text-decoration: none;
+  position: absolute;
+  color: #fec81f;
+  font-size: 25px;
+  font-family: 'Rancho', cursive;
+  z-index: 20;
+  margin-left: 36px;
+  margin-top: 20px;
+}
 
+.square3 p {
+  text-decoration: none;
+  position: absolute;
+  color: #fec81f;
+  font-size: 25px;
+  font-family: 'Rancho', cursive;
+  z-index: 20;
+  margin-left: 318px;
+  margin-top: 20px;
+}
+
+.square4 p {
+  text-decoration: none;
+  position: absolute;
+  color: #fec81f;
+  font-size: 25px;
+  font-family: 'Rancho', cursive;
+  z-index: 20;
+  margin-left: 317px;
+  margin-top: 231px;
+
+}
+
+.square5 p {
+  text-decoration: none;
+  position: absolute;
+  color: #fec81f;
+  font-size: 25px;
+  font-family: 'Rancho', cursive;
+  z-index: 20;
+  margin-left: 36px;
+  margin-top: 231px;
+
+
+}
+
+.copy1 p {
+  text-decoration: none;
+  position: absolute;
+  color: #fec81f;
+  font-size: 20px;
+  font-family: 'Rancho', cursive;
+  float: left;
+
+
+}
 
 .reviewbox {
   width: 90%;
