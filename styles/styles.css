@@ -30,60 +30,13 @@ body {
 
 }
 
-.jq_search {
-  text-align:center;
-  margin:48px 0;
-  background:#6fa890;
-
-
-}
-
-.jq_search input [type="search"] {
-  padding:12px;
-  width:600px;
-  height:48px;
-
-
-}
-
-.jq_search input [type="submit"] {
-  width:68px;
-  height:48px;
-  background:#FFFFFF url(img/search_icon_sprite.png) no-repeat top right;
-  border:none;
-  cursor:pointer;
-  padding:0;
-  opacity:0.5;
-  transtion:0.4s;
-
-
-}
-
-.jq_search input [type="submit"] + input {
-  background-position:top right;
-
-
-}
-
-.jq_search input [type="submit"]:hover {
-  opacity:1;
-
-
-}
-
-.shortcuts-zone {
-  margin:0 auto;
-  width:600px;
-  position: absolute;
-
-
-
-}
-
-.info {
-  margin:20px 0;
-  color:#FF2A2A;
-  color: #6fa890;
+.searchbutton {
+  margin-left: 381px;
+  width: 10px;
+  height: 10px;
+  background: #6fa890;
+  border-radius: 0%;
+  margin-top: -10px;
 
 }
 
@@ -607,4 +560,51 @@ body {
   background-image: -o-linear-gradient(bottom, rgb(0, 126, 107) 43%, rgb(0, 154, 136) 100%);
   background-image: -ms-linear-gradient(bottom, rgb(0, 126, 107) 43%, rgb(0, 154, 136) 100%);
   background-image: linear-gradient(bottom, rgb(0, 126, 107) 43%, rgb(0, 154, 136) 100%);
+}
+
+.input[type="text"] {
+  display: block;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 50px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  list-style: none;
+  overflow: hidden;
+
+}
+
+.style-1 input[type="text"] {
+  padding: 5px;
+  border: solid 3px #6fa890;
+  box-shadow: inset 2px 2px 2px 0 #666666;
+  transition: box-shadow 0.3s;
+  font-family: 'Open Sans', sans-serif;
+  font-color: #666666;
+  font-size: 15px;
+  background: #6fa890;
+  position: absolute;
+  display: inline-flex;
+  right: 3px;
+  z-index: 100;
+  width: 31%;
+  top: -37%;
+  margin-right: 72px;
+}
+
+.button1 {
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  padding: 4px;
+  background-color: #6fa890;
+  font-size: 17px;
+  color: #6fa890;
+  font-weight: bold;
+  transition: all 200ms;
+  z-index: 2;
+  margin-left: -332px;
+  margin-top: 307px;
+
 }
