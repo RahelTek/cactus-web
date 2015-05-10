@@ -876,8 +876,8 @@ body {
   position: absolute;
   display: inline-block;
   width: 34px;
-  height: 24px;
-  padding: 4px;
+  height: 32px;
+  padding: 0px;
   background-color: #ee7f4b;
   font-size: 23px;
   color: #ee7f4b;
