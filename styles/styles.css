@@ -33,25 +33,7 @@ body {
   width: 960px;
   margin: 0 auto;
 }
-.searchcontainer {
-  position: absolute;
-  display: inline-flex;
-  right: 3px;
-  z-index: 100;
-  width: 31%;
 
-}
-
-.searchbutton {
-  margin-left: 381px;
-  width: 10px;
-  height: 10px;
-  background: #6fa890;
-  border-radius: 0%;
-  margin-top: -10px;
-  z-index: 100;
-
-}
 
 .container2 {
   width: 1255px;
@@ -142,6 +124,7 @@ body {
 .main {
   position: relative;
   height: 660px;
+  color: #222222;
 
 
 }
@@ -635,6 +618,17 @@ body {
   padding: 0px;
   width: 3%;
   position: absolute;
+  z-index: 150;
+  margin-left: 896px;
+  margin-top: -282px;
+
+}
+
+
+.mag {
+  padding: 0px;
+  width: 3%;
+  position: absolute;
   margin-left: -40px;
   margin-top: 584px;
   z-index: 150;
@@ -645,11 +639,11 @@ body {
 
 .mag2 {
   padding: 0px;
-  width: 3%;
+  width:3%;
   position: absolute;
-  margin-left: 512px;
-  margin-top: -281px;
-  z-index: 100;
+  margin-left: -44px;
+  margin-top: 580px;
+  z-index: 150;
 
 }
 .container {
@@ -728,22 +722,21 @@ body {
 }
 
 
-.buttonsearch {
+.buttonsearch3 {
   position: absolute;
   display: inline-block;
   width: 34px;
   height: 28px;
   padding: 4px;
   background-color: #6fa890;
-  font-size: 17px;
+  font-size: 23px;
   color: #ee7f4b;
   font-weight: bold;
   transition: all 200ms;
   z-index: 100;
-  margin-left: 499px;
+  margin-left: 604px;
   margin-top: -284px;
   box-shadow: 2px 2px 3px #1e1e1e;
-
 
 
 }
@@ -757,19 +750,19 @@ body {
   height: 28px;
   padding: 4px;
   background-color: #6fa890;
-  font-size: 17px;
+  font-size: 23px;
   color: #ee7f4b;
   font-weight: bold;
   transition: all 200ms;
   z-index: 100;
-  margin-left: 604px;
+  margin-left: 499px;
   margin-top: -284px;
   box-shadow: 2px 2px 3px #1e1e1e;
 
 }
 
-.buttonsearch:before {
-  content: '';
+.buttonsearch3:before {
+  content: 'Go';
   position: absolute;
   top: -1px;
   left: -1px;
@@ -779,12 +772,13 @@ body {
 }
 
 .buttonsearch2:before {
-  content: '';
+  content: 'Go';
   position: absolute;
   top: -1px;
   left: -1px;
   width: 100%;
   height: 100%;
+
 
 }
 
@@ -792,8 +786,8 @@ body {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
-.buttonsearch:after {
-  content: '';
+.buttonsearch3:after {
+  content: 'Go';
   position: absolute;
   top: 0px;
   left:0px;
@@ -803,9 +797,16 @@ body {
 
 }
 
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
 
 .buttonsearch2:after {
-  content: '';
+  content: 'Go';
   position: absolute;
   top: 0px;
   left:0px;
@@ -823,7 +824,7 @@ body {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-.buttonsearch:hover {
+.buttonsearch3:hover {
   color: rgba(255,255,255,1.0);
 
   background-image: -webkit-linear-gradient(top, rgb(0, 154, 136) 43%, rgb(0, 154, 136) 100%);
@@ -853,7 +854,7 @@ body {
 }
 
 
-.buttonsearch:active {
+.buttonsearch3:active {
   background-image: -webkit-linear-gradient(bottom, rgb(0, 126, 107) 43%, rgb(0, 154, 136) 100%);
   background-image: -moz-linear-gradient(bottom, rgb(0, 126, 107) 43%, rgb(0, 154, 136) 100%);
   background-image: -o-linear-gradient(bottom, rgb(0, 126, 107) 43%, rgb(0, 154, 136) 100%);
@@ -878,7 +879,7 @@ body {
   height: 24px;
   padding: 4px;
   background-color: #ee7f4b;
-  font-size: 17px;
+  font-size: 23px;
   color: #ee7f4b;
   font-weight: bold;
   transition: all 200ms;
@@ -889,7 +890,7 @@ body {
 
 }
 .buttondirect:before {
-  content: '';
+  content: 'Go';
   position: absolute;
   top: -1px;
   left: -1px;
@@ -902,7 +903,7 @@ body {
   border-radius: 5px;
 }
 .buttondirect:after {
-  content: '';
+  content: 'Go';
   position: absolute;
   top: 0px;
   left:0px;
@@ -1043,6 +1044,29 @@ body {
   box-shadow: 2px 2px 3px #1e1e1e;
 
 }
+
+.directcontainer {
+  width: 560px;
+  height: 620px;
+  background-color: #ee7f4b;
+  background-image: url("../images/reservebackfill.png");
+  margin-top: -26px;
+  padding: 5px;
+  box-shadow: 2px 2px 3px #1e1e1e;
+
+
+}
+
+.directcontainer h1 {
+  font-family: 'Rancho', cursive;
+  padding-left: 8px;
+  margin-left: 28px;
+  margin-top: 10px;
+  font-size: 50px;
+  color: #fec81f;
+  text-shadow: 1px 1px 1px #1e1e1e;
+}
+
 
 .scrollcontainer h1 {
   font-family: 'Rancho', cursive;
