@@ -726,10 +726,8 @@ body {
   position: absolute;
   display: inline-block;
   width: 34px;
-  height: 28px;
-  padding: 4px;
-  background-color: #6fa890;
-  font-size: 23px;
+  height: 35px;
+  font-size: 25px;
   color: #ee7f4b;
   font-weight: bold;
   transition: all 200ms;
@@ -737,6 +735,8 @@ body {
   margin-left: 604px;
   margin-top: -284px;
   box-shadow: 2px 2px 3px #1e1e1e;
+  padding-right: 1px;
+  padding-left: 1px;
 
 
 }
@@ -747,10 +747,8 @@ body {
   position: absolute;
   display: inline-block;
   width: 34px;
-  height: 28px;
-  padding: 4px;
-  background-color: #6fa890;
-  font-size: 23px;
+  height: 35px;
+  font-size: 25px;
   color: #ee7f4b;
   font-weight: bold;
   transition: all 200ms;
@@ -758,6 +756,8 @@ body {
   margin-left: 499px;
   margin-top: -284px;
   box-shadow: 2px 2px 3px #1e1e1e;
+  padding-right: 1px;
+  padding-left: 1px;
 
 }
 
@@ -803,7 +803,7 @@ body {
   -moz-border-radius-topright: 5px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-
+}
 
 .buttonsearch2:after {
   content: 'Go';
@@ -876,9 +876,9 @@ body {
   position: absolute;
   display: inline-block;
   width: 34px;
-  height: 32px;
+  height: 29px;
   padding: 0px;
-  background-color: #ee7f4b;
+
   font-size: 23px;
   color: #ee7f4b;
   font-weight: bold;
@@ -900,7 +900,7 @@ body {
 
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  border-radius: 5px;
+  -border-radius: 5px;
 }
 .buttondirect:after {
   content: 'Go';
