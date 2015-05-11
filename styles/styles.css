@@ -15,6 +15,7 @@ a:hover{
 
       color: rgba(255,255,255,1.0);
 
+
 }
 
 body {
@@ -103,7 +104,7 @@ body {
   color: #6fa890;
   font-size: 21px;
   font-family: 'Open Sans', sans-serif;
-
+  cursor: pointer;
 }
 
 
@@ -182,6 +183,14 @@ body {
   margin-top: 20px;
   text-shadow: 1px 1px 1px #1e1e1e;
 }
+
+.squareLinksmain {
+  cursor: pointer;
+  font-size: 25px;
+  color: #fec81f;
+  font-family: 'Rancho', cursive;
+}
+
 
 .square3 p {
   text-decoration: none;
@@ -342,6 +351,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.footerLinksmail{
+  cursor:pointer;
+  font-size: 20px;
+  color: #6fa890;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .address2 {
   margin-top: 30px;
 
@@ -402,6 +418,14 @@ body {
 
 }
 
+
+.viewevent {
+  cursor: pointer;
+  font-size: 50px;
+  color: #fec81f;
+  font-family: 'Rancho', cursive;
+
+}
 .squaredirect {
   width: 372px;
   height: 176px;
@@ -424,6 +448,13 @@ body {
   margin-left: 25px;
   position: absolute;
 
+}
+
+.reviewyelp {
+  cursor: pointer;
+  font-size: 25px;
+  color: #6fa890;
+  font-family: 'Rancho', cursive;
 }
 
 
@@ -1454,7 +1485,7 @@ body {
   z-index: 100;
   right: 435px;
   top: 89%;
-  width: 322px;
+  width: 442px;
   box-shadow: 2px 2px 3px #1e1e1e;
 
 }
@@ -1649,7 +1680,7 @@ body {
 .imagecontainer2 {
   width: 900px;
   height: 634px;
-  background-color: #222222;
+  background-color: #262626;
   margin-top: 15px;
   right: 30px;
   padding: 0px;
@@ -1675,7 +1706,7 @@ body {
   margin-top: -26px;
   padding: 5px;
   box-shadow: 2px 2px 3px #1e1e1e;
-
+  background-image: url("../images/reservebackfill.png");
 
 }
 
