@@ -90,12 +90,13 @@ body {
   overflow: hidden;
   width: 660px;
   margin: 0;
+  cursor: pointer;
 }
 
 .nav li {
   display: inline;
   padding: 0 20px;
-
+  cursor: pointer;
 
 }
 
@@ -106,6 +107,17 @@ body {
   font-family: 'Open Sans', sans-serif;
   cursor: pointer;
 }
+
+
+.nav li a:hover {
+
+  color: #6fa890;
+  font-size: 21px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  color: white;
+}
+
 
 
 
