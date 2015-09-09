@@ -2,7 +2,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 
-
 a {
   font-size:16px;
   color:#FFF;
@@ -15,7 +14,6 @@ a:hover{
 
       color: rgba(255,255,255,1.0);
 
-
 }
 
 body {
@@ -27,14 +25,12 @@ body {
   background-position: bottom;
 
 
-
 }
 
 .mainContainer {
   width: 960px;
   margin: 0 auto;
 }
-
 
 .container2 {
   width: 1255px;
