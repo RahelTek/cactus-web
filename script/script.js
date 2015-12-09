@@ -44,3 +44,56 @@ function ajaxForm(button){
     }
   });
 }
+(function() {
+
+  var app = angular.module('LocalObjectSynch', ['ngStorage']);
+
+  // Represents a single course. Might send info to the Booking Service
+  app.controller('ProductController', ['CartService',function(CartService) {
+    this.addToCart = function() {
+      CartService.addProduct({
+        name:  this.name,
+        price: this.price
+      });
+      // Clear flieds after including.
+      this.name  = null;
+      this.price = null;
+    };
+  }]);
+
+
+  app.controller('CartController', ['CartService', function(CartService) {
+
+    this.getProducts = function (){
+      return CartService.getProducts();
+    }
+
+    this.remove = function (p) {
+      return CartService.remove(p);
+    }
+  }]);
+
+
+  // Saves all the products of the cart
+  app.service('CartService', function($localStorage){
+
+    //$localStorage.$reset({});
+    this.storage = $localStorage;
+
+    this.addProduct = function(p) {
+      p.date_added = new Date().toDateString();
+      this.storage.products = this.storage.products || [];
+      this.storage.products.push(p);
+    }
+
+    this.remove = function(p) {
+      var index = this.storage.products.indexOf(p)
+      this.storage.products.splice(index,1);
+    }
+
+    this.getProducts = function () {
+      return this.storage.products;
+    }
+  });
+
+})();

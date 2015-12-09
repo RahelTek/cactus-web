@@ -78,6 +78,57 @@
           <p>Take I-95 North. Follow signs for Central Philadelphia/I- 676 West. Follow 676 West to signs for Route 76 (Schuylkill Expressway) West – (towards Valley Forge). Take 76 to Manayunk Exit 338 (old exit 31), at the bottom of the ramp make a right turn cross the Green Lane bridge to the traffic light which is Main Street and make a right turn. We are located about 1/2 mile on the left hand side after Rector Street.</p>
     </div>
 
-
+    <body ng-app="LocalObjectSynch">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>Local storage example</h2>
+          </div>
+        </div>
+        <div class="row">
+          <form ng-controller="ProductController as prod" class="col col-xs-6">
+            <h3>Product Creator</h3>
+            <hr>
+            <div class="form-group">
+              <h5>Name,</h5>
+              <input class="form-control" type="text" ng-model="prod.name">
+            </div>
+            <div class="form-group">
+              <h5>Price,</h5>
+              <input class="form-control" type="number" ng-model="prod.price">
+            </div>
+            <input type="submit" ng-click="prod.addToCart()" class="btn btn-primary" />
+          </form>
+          <div class="col col-xs-6">
+            <h3 ng-click="cart.debug()">Cart</h3><hr>
+            <div ng-controller="CartController as cart">
+              <div ng-hide="cart.getProducts().length" class="alert alert-info" role="alert"><b>Eeeyy you!!!</b>
+                This is empty, type something that will persist... till you clear all your browser data!
+              </div>
+              <ul class="nav nav-pills nav-stacked">
+                <li ng-repeat="prod in cart.getProducts()" >
+                  <a href="#">
+                    <button ng-click="cart.remove(prod)" type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    {{prod.name}}<br>
+                    Price: {{prod.price}}<br>
+                    Date added: <time ng-bind="prod.date_added"></time>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-push-3 col-xs-6">
+            <h2>Local storage example</h2>
+            <hr>
+            <p class="lead">
+              Practical localStorage example  to demostrate the data binding and live tab update on with Angular Controllers and Services.<br>
+              GitHub <a href="https://github.com/gsklee/ngStorage">ngStorage</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
   </body>
 </html>
