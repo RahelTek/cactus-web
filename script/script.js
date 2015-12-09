@@ -40,6 +40,6 @@ function ajaxForm(button){
     url: form.attr('action'),
     data: dataString,
     success: function(){
-      console.log(dataString); // Success actions go here.
+      console.log(dataString); 
     }
   });
