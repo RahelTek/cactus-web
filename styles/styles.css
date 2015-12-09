@@ -1953,3 +1953,37 @@ html { min-height: 100%; background: dimgrey; }
 
 }
 .thumbnails a { outline: none; }
+
+textarea, input:not([type=button]):not([type=submit]) {
+	width: 100%;
+	border: 1px solid rgba(0,0,0,.2);
+	padding: .5em 1em;
+  font-family: sans-serif;
+}
+input[type=button], input[type=submit] {
+	cursor: pointer;
+	margin: 0;
+	padding: .5em 2em;
+	background: #0298b6;
+	border: none;
+	color: #fff;
+}
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+form {
+  width: 30em;
+  margin: 0 auto;
+}
+form div.group > div {
+	width: 46%;
+	margin: 0 0 .5em;
+}
