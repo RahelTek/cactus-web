@@ -40,6 +40,14 @@ function ajaxForm(button){
     url: form.attr('action'),
     data: dataString,
     success: function(){
-      console.log(dataString); 
+      console.log(dataString);
     }
   });
+  <button onclick="store()" type="button">StoreEmail</button>
+
+  <script  type="text/javascript">
+    function store(){
+       var inputEmail= document.getElementById("email");
+       localStorage.setItem("email", inputEmail.value);
+      }
+  </script>
