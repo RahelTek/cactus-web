@@ -62,13 +62,7 @@ function ajaxForm(button){
     }
     document.getElementById("outlet").innerHTML = out; //adds all the content in the #out element
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> master
-=======
->>>>>>> master
 // Dropdown Menu
 var dropdown = document.querySelectorAll('.dropdown');
 var dropdownArray = Array.prototype.slice.call(dropdown,0);
