@@ -1,7 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Rancho);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-<script src="script.js">
+
+<script type="javascript" src="script/script.js"></script>
 
 a {
   font-size:16px;
@@ -2021,5 +2022,3 @@ h5 {
       float: left;
     }
 }
-
-</script>
