@@ -2020,3 +2020,10 @@ h5 {
       float: left;
     }
 }
+
+.text h1 {
+  font-family: 'Rancho', cursive;
+  font-size: 20px;
+  color: #6fa890;
+
+}
