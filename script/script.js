@@ -43,11 +43,22 @@ function ajaxForm(button){
       console.log(dataString);
     }
   });
-  <button onclick="store()" type="button">StoreEmail</button>
+  var xmlhttp = new XMLHttpRequest();
+  var url = "reviews.txt"; //contains all posts
 
-  <script  type="text/javascript">
-    function store(){
-       var inputEmail= document.getElementById("email");
-       localStorage.setItem("email", inputEmail.value);
+  xmlhttp.onreadystatechange = function() {
+      if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          var arr = JSON.parse(xmlhttp.responseText);
+          getReview(arr);
       }
-  </script>
+  };
+  xmlhttp.open("GET", url, true);
+  xmlhttp.send();
+
+  function getReviews(arr) {
+   var out = "";
+   for(i = 0; i < arr.reviews.length; i++) {
+        out +='<div class="review-item"> <h2 class="reviewer">'+arr.reviews[i].user+'</h2> <p class-"review-content">'+arr.reviews[i].review'</p></div>'
+    }
+    document.getElementById("outlet").innerHTML = out; //adds all the content in the #out element
+}
