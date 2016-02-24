@@ -1987,3 +1987,36 @@ form div.group > div {
 	width: 46%;
 	margin: 0 0 .5em;
 }
+
+@import "compass/css3";
+
+* {
+  margin: 0;
+  padding: 0;
+  @include box-sizing(border-box);
+}
+
+body {
+  font: 1rem/1.3 Arial, Helvetica, sans-serif;
+}
+
+h2, h5 {
+  text-align: center;
+}
+
+h5 {
+  text-transform: uppercase;
+  color: #aeaeae;
+}
+
+.slider__container {
+  width: 40em;
+  height: 25em;
+  margin: 1.5em auto;
+  overflow: hidden;
+}
+.slider {
+    img {
+      float: left;
+    }
+}
