@@ -63,7 +63,7 @@
 //     document.getElementById("outlet").innerHTML = out; //adds all the content in the #out element
 // }
 document.addEventListener('DOMContentLoaded', function() {
-  // sslider = Simple SLIDER
+
   function sslider() {
 
     var current = 0,
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
       for(i = 0; i <= allImages.length - 1; i++) {
         animateRight(i);
       }
-      // resseting the current image to the first image
+  
       current = 0;
     }
 
